@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+                  Dining Hall
+    </title>
+    <!-- <script src="https://kit.fontawesome.com/ff95afdf82.js" crossorigin="anonymous"></script> -->
+    <script src="main.js"></script>
+</head> 
+<style>
+     body{ 
+        background-color: black; 
+     }
+     .class{
+        color: white;
+        text-align:center;  
+        text-justify: auto;
+        /* margin-left: 3px; */ 
+          
+    
+     }
+    #box1{
+        border: 2px solid rgb(112, 108, 108);
+        margin: 90px 640px;
+        padding: 45px;
+        width: 8%;
+        border-radius: 18px;
+          
+       
+    
+    }
+    #box2{
+      border: 2px solid rgb(112, 108, 108);
+        margin: 90px 640px;
+        padding: 45px;
+        width: 8%;
+        border-radius: 18px;
+          
+
+    }
+    .image img {
+        /* padding:5px 5px; */
+        width:56px;
+        /* filter: invert(100%); */
+        /* background-color:black; */
+    
+    }
+    .vl {
+  border-left: 1px solid white;
+  height: 1200px;
+  position: absolute;
+  left: 70%;
+  margin-left: -3px;
+  top: 0;
+}
+.refresh{
+    color:rgb(200, 159, 26);
+    margin-left: 500px;
+}
+.menubar{
+  margin-left: 500px;
+  margin-top: 4px;
+}
+
+
+</style>
+<body>
+    <div class="class">
+        <h3>
+            My spaces
+        </h3>
+        <h1>
+           Dining Hall 
+        </h1>
+          <!-- <a herf=""> <i class="fa-duotone fa-bars"></i></a> -->
+           <div class="menubar">
+            <a class="menu-icon" herf=""><i class="fa-solid fa-bars"></i> </a>
+          </div>
+          
+          
+
+        <h3>
+            Manage all your added devices in your space
+        </h3>
+        <h2>
+            My Device        
+        </h2>
+        <div class="refresh">
+           <h3>Refresh</h3>
+        </div>
+
+       </div>
+        <div id="box1" class="class" onclick="bulbOn()">
+            <h2>
+              Light Bulb  
+            </h2>
+            <div class="image">
+            <img src="bulboff.jpg" alt="" id="b1">
+            </div>
+            <h2 id="caption">OFF</h2>
+        </div>
+        <div id="box2" class="class" onclick="bulbOn1()">
+            <h2>   
+              Light Bulb  
+            </h2>
+            <div class="image">
+            <img src="bulboff.jpg" alt="" id="b2">
+            </div>
+            <h2 id="caption2">OFF</h2>
+        </div>
+        <div class="vl">
+
+        </div>
+        <!-- Fetching Api -->
+      
+
+
+</body>
+</html>
